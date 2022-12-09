@@ -45,6 +45,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.24.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.24.2/CMakeRCCompiler.cmake"
   "CMakeFiles/3.24.2/CMakeSystem.cmake"
+  "D:/Maker/Zoe/vendor/glad/CMakeLists.txt"
   "D:/Maker/Zoe/vendor/glfw/CMake/cmake_uninstall.cmake.in"
   "D:/Maker/Zoe/vendor/glfw/CMake/glfw3.pc.in"
   "D:/Maker/Zoe/vendor/glfw/CMake/glfw3Config.cmake.in"
@@ -67,6 +68,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "vendor/glfw/CMakeFiles/CMakeDirectoryInformation.cmake"
   "vendor/glfw/src/glfw3.pc"
   "vendor/glfw/src/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "vendor/glad/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -75,4 +77,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "vendor/glfw/CMakeFiles/uninstall.dir/DependInfo.cmake"
   "vendor/glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake"
   "vendor/glfw/src/CMakeFiles/update_mappings.dir/DependInfo.cmake"
+  "vendor/glad/CMakeFiles/glad.dir/DependInfo.cmake"
   )

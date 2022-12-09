@@ -69,11 +69,26 @@ include CMakeFiles/Zoe.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Zoe.dir/flags.make
 
+CMakeFiles/Zoe.dir/src/Shader.cpp.obj: CMakeFiles/Zoe.dir/flags.make
+CMakeFiles/Zoe.dir/src/Shader.cpp.obj: CMakeFiles/Zoe.dir/includes_CXX.rsp
+CMakeFiles/Zoe.dir/src/Shader.cpp.obj: D:/Maker/Zoe/src/Shader.cpp
+CMakeFiles/Zoe.dir/src/Shader.cpp.obj: CMakeFiles/Zoe.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:/Maker/Zoe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Zoe.dir/src/Shader.cpp.obj"
+	C:/msys64/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Zoe.dir/src/Shader.cpp.obj -MF CMakeFiles/Zoe.dir/src/Shader.cpp.obj.d -o CMakeFiles/Zoe.dir/src/Shader.cpp.obj -c D:/Maker/Zoe/src/Shader.cpp
+
+CMakeFiles/Zoe.dir/src/Shader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Zoe.dir/src/Shader.cpp.i"
+	C:/msys64/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:/Maker/Zoe/src/Shader.cpp > CMakeFiles/Zoe.dir/src/Shader.cpp.i
+
+CMakeFiles/Zoe.dir/src/Shader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Zoe.dir/src/Shader.cpp.s"
+	C:/msys64/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:/Maker/Zoe/src/Shader.cpp -o CMakeFiles/Zoe.dir/src/Shader.cpp.s
+
 CMakeFiles/Zoe.dir/src/main.cpp.obj: CMakeFiles/Zoe.dir/flags.make
 CMakeFiles/Zoe.dir/src/main.cpp.obj: CMakeFiles/Zoe.dir/includes_CXX.rsp
 CMakeFiles/Zoe.dir/src/main.cpp.obj: D:/Maker/Zoe/src/main.cpp
 CMakeFiles/Zoe.dir/src/main.cpp.obj: CMakeFiles/Zoe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:/Maker/Zoe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Zoe.dir/src/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:/Maker/Zoe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Zoe.dir/src/main.cpp.obj"
 	C:/msys64/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Zoe.dir/src/main.cpp.obj -MF CMakeFiles/Zoe.dir/src/main.cpp.obj.d -o CMakeFiles/Zoe.dir/src/main.cpp.obj -c D:/Maker/Zoe/src/main.cpp
 
 CMakeFiles/Zoe.dir/src/main.cpp.i: cmake_force
@@ -86,17 +101,20 @@ CMakeFiles/Zoe.dir/src/main.cpp.s: cmake_force
 
 # Object files for target Zoe
 Zoe_OBJECTS = \
+"CMakeFiles/Zoe.dir/src/Shader.cpp.obj" \
 "CMakeFiles/Zoe.dir/src/main.cpp.obj"
 
 # External object files for target Zoe
 Zoe_EXTERNAL_OBJECTS =
 
+Zoe.exe: CMakeFiles/Zoe.dir/src/Shader.cpp.obj
 Zoe.exe: CMakeFiles/Zoe.dir/src/main.cpp.obj
 Zoe.exe: CMakeFiles/Zoe.dir/build.make
 Zoe.exe: vendor/glfw/src/libglfw3.a
+Zoe.exe: vendor/glad/libglad.a
 Zoe.exe: CMakeFiles/Zoe.dir/linklibs.rsp
 Zoe.exe: CMakeFiles/Zoe.dir/objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:/Maker/Zoe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Zoe.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:/Maker/Zoe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Zoe.exe"
 	"C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/Zoe.dir/objects.a
 	C:/msys64/mingw64/bin/ar.exe qc CMakeFiles/Zoe.dir/objects.a @CMakeFiles/Zoe.dir/objects1.rsp
 	C:/msys64/mingw64/bin/c++.exe -Wl,--whole-archive CMakeFiles/Zoe.dir/objects.a -Wl,--no-whole-archive -o Zoe.exe -Wl,--out-implib,libZoe.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/Zoe.dir/linklibs.rsp

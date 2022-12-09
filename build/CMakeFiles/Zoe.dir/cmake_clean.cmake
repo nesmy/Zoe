@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Zoe.dir/src/Shader.cpp.obj"
+  "CMakeFiles/Zoe.dir/src/Shader.cpp.obj.d"
   "CMakeFiles/Zoe.dir/src/main.cpp.obj"
   "CMakeFiles/Zoe.dir/src/main.cpp.obj.d"
   "Zoe.exe"

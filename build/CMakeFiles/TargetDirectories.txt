@@ -20,3 +20,10 @@ D:/Maker/Zoe/build/vendor/glfw/src/CMakeFiles/list_install_components.dir
 D:/Maker/Zoe/build/vendor/glfw/src/CMakeFiles/install.dir
 D:/Maker/Zoe/build/vendor/glfw/src/CMakeFiles/install/local.dir
 D:/Maker/Zoe/build/vendor/glfw/src/CMakeFiles/install/strip.dir
+D:/Maker/Zoe/build/vendor/glad/CMakeFiles/glad.dir
+D:/Maker/Zoe/build/vendor/glad/CMakeFiles/edit_cache.dir
+D:/Maker/Zoe/build/vendor/glad/CMakeFiles/rebuild_cache.dir
+D:/Maker/Zoe/build/vendor/glad/CMakeFiles/list_install_components.dir
+D:/Maker/Zoe/build/vendor/glad/CMakeFiles/install.dir
+D:/Maker/Zoe/build/vendor/glad/CMakeFiles/install/local.dir
+D:/Maker/Zoe/build/vendor/glad/CMakeFiles/install/strip.dir

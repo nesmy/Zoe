@@ -213,6 +213,43 @@ update_mappings/fast:
 	$(MAKE) $(MAKESILENT) -f vendor/glfw/src/CMakeFiles/update_mappings.dir/build.make vendor/glfw/src/CMakeFiles/update_mappings.dir/build
 .PHONY : update_mappings/fast
 
+#=============================================================================
+# Target rules for targets named glad
+
+# Build rule for target.
+glad: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glad
+.PHONY : glad
+
+# fast build rule for target.
+glad/fast:
+	$(MAKE) $(MAKESILENT) -f vendor/glad/CMakeFiles/glad.dir/build.make vendor/glad/CMakeFiles/glad.dir/build
+.PHONY : glad/fast
+
+src/Shader.obj: src/Shader.cpp.obj
+.PHONY : src/Shader.obj
+
+# target to build an object file
+src/Shader.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Zoe.dir/build.make CMakeFiles/Zoe.dir/src/Shader.cpp.obj
+.PHONY : src/Shader.cpp.obj
+
+src/Shader.i: src/Shader.cpp.i
+.PHONY : src/Shader.i
+
+# target to preprocess a source file
+src/Shader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Zoe.dir/build.make CMakeFiles/Zoe.dir/src/Shader.cpp.i
+.PHONY : src/Shader.cpp.i
+
+src/Shader.s: src/Shader.cpp.s
+.PHONY : src/Shader.s
+
+# target to generate assembly for a file
+src/Shader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Zoe.dir/build.make CMakeFiles/Zoe.dir/src/Shader.cpp.s
+.PHONY : src/Shader.cpp.s
+
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
 
@@ -252,7 +289,11 @@ help:
 	@echo "... uninstall"
 	@echo "... update_mappings"
 	@echo "... Zoe"
+	@echo "... glad"
 	@echo "... glfw"
+	@echo "... src/Shader.obj"
+	@echo "... src/Shader.i"
+	@echo "... src/Shader.s"
 	@echo "... src/main.obj"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
