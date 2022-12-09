@@ -1,0 +1,2 @@
+cd build
+Zoe.exe

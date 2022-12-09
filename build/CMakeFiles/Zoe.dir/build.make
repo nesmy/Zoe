@@ -70,6 +70,7 @@ include CMakeFiles/Zoe.dir/progress.make
 include CMakeFiles/Zoe.dir/flags.make
 
 CMakeFiles/Zoe.dir/src/main.cpp.obj: CMakeFiles/Zoe.dir/flags.make
+CMakeFiles/Zoe.dir/src/main.cpp.obj: CMakeFiles/Zoe.dir/includes_CXX.rsp
 CMakeFiles/Zoe.dir/src/main.cpp.obj: D:/Maker/Zoe/src/main.cpp
 CMakeFiles/Zoe.dir/src/main.cpp.obj: CMakeFiles/Zoe.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:/Maker/Zoe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Zoe.dir/src/main.cpp.obj"
@@ -92,6 +93,7 @@ Zoe_EXTERNAL_OBJECTS =
 
 Zoe.exe: CMakeFiles/Zoe.dir/src/main.cpp.obj
 Zoe.exe: CMakeFiles/Zoe.dir/build.make
+Zoe.exe: vendor/glfw/src/libglfw3.a
 Zoe.exe: CMakeFiles/Zoe.dir/linklibs.rsp
 Zoe.exe: CMakeFiles/Zoe.dir/objects1.rsp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:/Maker/Zoe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Zoe.exe"

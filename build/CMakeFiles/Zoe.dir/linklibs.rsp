@@ -1,1 +1,1 @@
- -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+  -LD:/Maker/Zoe/vendor/glfw/src  -LD:/Maker/Zoe/vendor/glad/src  vendor/glfw/src/libglfw3.a -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
